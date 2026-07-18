@@ -4,4 +4,7 @@ main: com.example.customenchant.TemporaryHealthPlugin
 api-version: 1.12
 description: Provides temporary maximum health modifications designed to co-exist with GalacticLifeSteal.
 authors: [Developer]
-softdepend: [GalacticLifeSteal]
+softdepend:
+- Heartsteal
+ - GalacticLifeSteal
+
